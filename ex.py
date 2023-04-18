@@ -12,26 +12,3 @@ X = int(input())
 Y = float(input())
 consumo_medio = X / Y
 print (f'{consumo_medio:.3f}', 'km/l')
-
-#calculando o salario com base em formula definida 
-
-num_funcionario = int(input())
-horas_trabalhadas = int(input())
-valor_hora = float(input())
-
-salario = horas_trabalhadas * valor_hora
-
-print('NUMBER =', num_funcionario)
-print ( f'SALARY = U$ {salario:.2f}')
-
-
-#calculando o salario com bonus em formula definida 
-
-vendendor = input()
-salario_fixo = float(input())
-total_vendas = float(input())
-
-comissao = total_vendas * 0.15
-salario_total = salario_fixo + comissao
-
-print(f'TOTAL = R$ {salario_total:.2f}')
